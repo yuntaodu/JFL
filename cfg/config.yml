@@ -1,0 +1,9 @@
+# for office-31 and office-home dataset
+batch_size: 32
+num_epoch: 500
+base_lr: 0.000075
+optim:
+  type: adam
+  params: 
+    lr: 0.000075
+    betas: [0.9, 0.999]
